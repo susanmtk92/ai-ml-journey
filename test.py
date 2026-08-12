@@ -1,12 +1,3 @@
-distance_mi = ''
-is_raining = False
-has_bike = True
-has_car = False
-has_ride_share_app = True
-
-
-
-if not distance_mi:
-    print('False')
-elif distance_mi <= 1:
-    print('True')
+developers = ['Naomi', 'Dario', 'Jessica', 'Tom']
+ids = [1, 2, 3, 4]
+print(zip(developers, ids))
